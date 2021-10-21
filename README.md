@@ -2,7 +2,16 @@
 
 My SDL2 / Game Programming Dependencies. 
 
-Clone this into your repo using: `git clone git@github.com:conner-calhoun/sdl-deps.git deps`
+---
+#### Steps:
+
+Clone this into your repo using: `git submodule add git@github.com:conner-calhoun/sdl-deps.git deps` 
+
+**OR** 
+
+`git clone git@github.com:conner-calhoun/sdl-deps.git deps` if you are not using a git repo.
+
+...
 
 Then make sure your `CMakeLists.txt` matches what is below.
 
